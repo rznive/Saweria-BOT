@@ -1,0 +1,27 @@
+[2025-01-21T18:31:46.717Z] [32minfo[39m: Server is running on http://localhost:3000
+[2025-01-21T18:31:59.046Z] [32minfo[39m: [GET] / - IP: ::1
+[2025-01-21T18:31:59.161Z] [32minfo[39m: Accessed root endpoint
+[2025-01-21T18:31:59.198Z] [32minfo[39m: [GET] /favicon.ico - IP: ::1
+[2025-01-21T18:32:42.524Z] [32minfo[39m: Server is running on http://localhost:3000
+[2025-01-21T18:32:49.004Z] [32minfo[39m: [GET] / - IP: ::1
+[2025-01-21T18:33:45.117Z] [32minfo[39m: [GET] /api/transactionHistory - IP: ::1
+[2025-01-21T18:36:56.615Z] [32minfo[39m: Server is running on http://localhost:3000
+[2025-01-21T18:37:02.355Z] [32minfo[39m: [GET] /api/transactionHistory - IP: ::1
+[2025-01-21T18:40:00.362Z] [32minfo[39m: Server is running on http://localhost:3000
+[2025-01-21T18:40:13.843Z] [32minfo[39m: [GET] / - IP: ::1
+[2025-01-21T18:40:17.995Z] [32minfo[39m: [GET] /api/transactionHistory - IP: ::1
+[2025-01-21T18:41:31.104Z] [32minfo[39m: Server is running on http://localhost:3000
+[2025-01-21T18:41:33.625Z] [32minfo[39m: [GET] /api/transactionHistory - IP: ::1
+[2025-01-21T18:42:09.883Z] [32minfo[39m: [GET] /api/transactionHistory?page=1 - IP: ::1
+[2025-01-21T18:46:45.868Z] [32minfo[39m: Server is running on http://localhost:3000
+[2025-01-21T18:46:48.582Z] [32minfo[39m: [GET] /api/transactionHistory?page=1 - IP: ::1
+[2025-01-21T18:47:04.372Z] [32minfo[39m: [GET] /api/transactionHistory?page=1&pageSize=1 - IP: ::1
+[2025-01-21T18:47:19.663Z] [32minfo[39m: [GET] /api/transactionHistory - IP: ::1
+[2025-01-21T18:47:57.087Z] [32minfo[39m: [GET] / - IP: ::1
+[2025-01-21T18:48:01.231Z] [32minfo[39m: [GET] /api/balanceSaldo - IP: ::1
+[2025-01-21T18:48:42.076Z] [32minfo[39m: [GET] /api/balanceSaldo - IP: ::1
+[2025-01-21T18:50:44.567Z] [32minfo[39m: Server is running on http://localhost:3000
+[2025-01-21T18:50:57.314Z] [32minfo[39m: [GET] / - IP: ::1
+[2025-01-21T18:50:58.307Z] [32minfo[39m: [GET] /api/balanceSaldo - IP: ::1
+[2025-01-21T18:51:01.642Z] [32minfo[39m: [GET] /api/transactionHistory - IP: ::1
+[2025-01-21T18:52:49.864Z] [32minfo[39m: [GET] /api/balanceSaldo - IP: ::1

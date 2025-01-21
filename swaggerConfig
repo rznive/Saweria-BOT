@@ -1,0 +1,27 @@
+const swaggerJsdoc = require("swagger-jsdoc");
+
+const options = {
+  definition: {
+    openapi: "3.0.0",
+    info: {
+      title: "saweriaPayment API",
+      version: "1.0.0",
+      description: "API documentation for saweriaPayment application",
+    },
+    servers: [
+      {
+        url: "http://localhost:{port}",
+        description: "Development server",
+        variables: {
+          port: {
+            default: "3000",
+          },
+        },
+      },
+    ],
+  },
+  apis: ["./routes/*.js"],
+};
+
+const specs = swaggerJsdoc(options);
+module.exports = specs;
