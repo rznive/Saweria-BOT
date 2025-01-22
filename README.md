@@ -1,6 +1,6 @@
 # Saweria Balance dan Transaction Fetcher
 
-Aplikasi ini memungkinkan Anda untuk berinteraksi dengan API Saweria guna mengambil data saldo dan transaksi. Selain itu, aplikasi ini dilengkapi dengan fitur manajemen token, termasuk penyegaran otomatis untuk token yang kedaluwarsa.
+Aplikasi ini memungkinkan Anda untuk berinteraksi dengan API Saweria guna membuat dan memverifikasi pembayaran otomatis, mengambil data saldo dan transaksi. Selain itu, aplikasi ini dilengkapi dengan fitur manajemen token, termasuk penyegaran otomatis untuk token yang kedaluwarsa.
 
 ## Fitur Utama
 
