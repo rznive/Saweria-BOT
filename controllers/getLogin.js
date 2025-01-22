@@ -1,27 +1,30 @@
 require("dotenv").config();
-const axios = require("axios");
 const supabase = require("../config/supabaseClient");
+const cloudscraper = require("cloudscraper");
 
 const getLogin = async () => {
   try {
-    const response = await axios.post(
-      process.env.SAWERIA_LOGIN_URL,
-      {
+    const options = {
+      method: "POST",
+      uri: process.env.SAWERIA_LOGIN_URL,
+      body: JSON.stringify({
         email: process.env.saweriaUsername,
         password: process.env.saweriaPassword,
+      }),
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        Origin: "https://saweria.co",
+        Referer: "https://saweria.co/",
       },
-      {
-        headers: {
-          "User-Agent":
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-          "Content-Type": "application/json",
-          Origin: "https://saweria.co",
-          Referer: "https://saweria.co/",
-        },
-      }
-    );
+    };
 
-    const authorizationToken = response.headers["authorization"];
+    const response = await cloudscraper.post(options);
+    const parsedResponse = JSON.parse(response);
+
+    const authorizationToken = parsedResponse.headers["authorization"];
+
     const { data, error } = await supabase
       .from("saweriaData")
       .update({ authorizationToken })
