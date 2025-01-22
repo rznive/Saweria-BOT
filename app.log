@@ -25,3 +25,12 @@
 [2025-01-21T18:50:58.307Z] [32minfo[39m: [GET] /api/balanceSaldo - IP: ::1
 [2025-01-21T18:51:01.642Z] [32minfo[39m: [GET] /api/transactionHistory - IP: ::1
 [2025-01-21T18:52:49.864Z] [32minfo[39m: [GET] /api/balanceSaldo - IP: ::1
+[2025-01-22T02:44:00.554Z] [32minfo[39m: Server is running on http://localhost:3000
+[2025-01-22T02:44:04.525Z] [32minfo[39m: [GET] / - IP: ::1
+[2025-01-22T02:44:04.822Z] [32minfo[39m: [GET] /favicon.ico - IP: ::1
+[2025-01-22T02:44:07.654Z] [32minfo[39m: [GET] /api/transactionHistory - IP: ::1
+[2025-01-22T02:44:15.725Z] [32minfo[39m: [GET] /api/balanceSaldo - IP: ::1
+[2025-01-22T02:44:20.085Z] [32minfo[39m: [GET] /api/transactionHistory - IP: ::1
+[2025-01-22T02:46:16.899Z] [32minfo[39m: Server is running on http://localhost:3000
+[2025-01-22T02:46:22.101Z] [32minfo[39m: [GET] / - IP: ::ffff:127.0.0.1
+[2025-01-22T02:46:24.802Z] [32minfo[39m: [GET] /api/balanceSaldo - IP: ::ffff:127.0.0.1
